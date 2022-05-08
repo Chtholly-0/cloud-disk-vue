@@ -10,7 +10,9 @@ var mouserEnterChange = function (event, flag) {
 }
 
 var filterSize = function(size) {
-    if (!size) return ""
+    if (size == undefined || size == null) {
+        return "";
+    }
     return size < 1024 ? size + " B" : 
       size < pow1024(2) ? (size / 1024).toFixed(1) + " KB":
         size < pow1024(3) ? (size / pow1024(2)).toFixed(1) + " MB" :

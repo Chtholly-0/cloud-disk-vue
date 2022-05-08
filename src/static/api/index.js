@@ -41,6 +41,10 @@ function fileRename(params) {
 function fileCopyOrMove(params) {
     return axios.post('/file/copyOrMove', params)
 }
+// 文件预创建
+function filePreCreate(params) {
+    return axios.get('/file/preCreate', { params: params })
+}
 // 文件合并
 function fileMerge(params) {
     return axios.get('/file/merge', { params })
@@ -59,6 +63,7 @@ export default{
     fileDelete,
     fileRename,
     fileCopyOrMove,
+    filePreCreate,
     fileMerge,
     fileUploadUrl,
 }

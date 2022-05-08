@@ -1,0 +1,16 @@
+/* 文件图标样式 */
+.icon-file {
+  width: 20px;
+  height: 20px;
+  vertical-align: -0.15em;
+  margin-right: 5px;
+}
+/* 鼠标进入时样式 */
+.icon-mouser-enter {
+  cursor: pointer;
+  color: #409eff;
+}
+
+.icon-disabled {
+  color: #c0c4cc;
+}

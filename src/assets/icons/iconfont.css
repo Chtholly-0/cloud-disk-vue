@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3315479 */
+  src: url('iconfont.woff2?t=1649579947101') format('woff2'),
+       url('iconfont.woff?t=1649579947101') format('woff'),
+       url('iconfont.ttf?t=1649579947101') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tupian:before {
+  content: "\f7fa";
+}
+
+.icon-yasuobao-207:before {
+  content: "\e7d5";
+}
+
+.icon-wenjianjia1:before {
+  content: "\e636";
+}
+
+.icon-CSV:before {
+  content: "\e6e0";
+}
+
+.icon-doc:before {
+  content: "\e735";
+}
+
+.icon-XLSX:before {
+  content: "\e674";
+}
+
+.icon-PPTX:before {
+  content: "\e675";
+}
+
+.icon-TXT:before {
+  content: "\e67b";
+}
+
+.icon-EXCEL:before {
+  content: "\e6a2";
+}
+
+.icon-PPT:before {
+  content: "\e6a3";
+}
+
+.icon-word2:before {
+  content: "\e6a4";
+}
+
+.icon-PDF:before {
+  content: "\e6e4";
+}
+
+.icon-ic_danxuankuang-weixuanzhong:before {
+  content: "\e638";
+}
+
+.icon-danxuan-xuanzhong:before {
+  content: "\e649";
+}
+
+.icon-shipin:before {
+  content: "\e607";
+}
+
+.icon-weizhiwenjian:before {
+  content: "\e606";
+}
+
+.icon-yinle:before {
+  content: "\fe56";
+}
+
